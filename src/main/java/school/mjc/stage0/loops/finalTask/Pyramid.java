@@ -4,7 +4,7 @@ public class Pyramid {
     public void printPyramid(int cathetusLength) {
         int cathetusWidth = cathetusLength * 2;
         for (int i = 0; i < cathetusLength; i++) {
-            for (int j = 0; j < cathetusWidth-1; j++) {
+            for (int j = 0; j < cathetusWidth; j++) {
                 if (j < cathetusLength) {
                     System.out.print(j < cathetusLength - i - 1 ? " " : cathetusLength - j);
                 } else {
