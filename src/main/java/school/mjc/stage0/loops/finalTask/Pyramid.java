@@ -8,7 +8,7 @@ public class Pyramid {
                 if (j < cathetusLength) {
                     System.out.print(j < cathetusLength - i - 1 ? " " : cathetusLength - j);
                 } else {
-                    System.out.print(j > cathetusLength + i - 1 ? " " : cathetusWidth/cathetusLength + j - cathetusLength);
+                    System.out.print(j > (cathetusLength + i - 1) ? "" : cathetusWidth/cathetusLength + j - cathetusLength);
                 }
             }
             System.out.println();
